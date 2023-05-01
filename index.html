@@ -1,0 +1,132 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <h1>Bereket's Restaurant</h1>
+        <p>The best restaurant in the whole Hawassa</p>
+      </header>
+
+      <div class="pizza" id="pizza">
+        <!-- <span class="pizza-span">
+                    <div class="pizza-icon">
+                        
+                        <i>🍕</i>
+                    </div>
+                </span>
+                
+                <div class="pizz-detail">
+                <h2>Pizza</h2> 
+                <p>pepperoni,mushrom,mozarella</p>
+                <h3>$14</h3>
+                </div>
+                <div class="pizza-btn">
+                    <button>+</button>
+
+                </div> -->
+      </div>
+
+      <div class="complete-order">
+        <!-- <h2>Your Order</h2>
+
+             <div class="order-food">
+                <div class="foods">
+               <h3>Pizza</h3>
+               <h3>Beer</h3>
+            </div>
+            <div class="remove-foods">
+                <h4>remove</h4>
+                <h4>remove</h4>
+            </div>
+
+             <div class="food-prices">
+                   <h3>$14</h3>
+                   <h3>$17</h3>
+             </div>
+
+             
+
+             </div>
+            
+
+             <div class="order-submit">
+                <h3>Total price</h3>
+                <h3>$31</h3>
+
+
+             </div>
+             <div class="main-order-btn">
+             <button class="order-btn">
+                complete-order
+             </button>
+            </div> -->
+           
+      </div>
+      <div class="model-rate" id="model-rate">
+        <i class="fa-regular fa-star" data-starca="stars"></i>
+        <i class="fa-regular fa-star" data-starcb="stars"></i>
+        <i class="fa-regular fa-star" data-starcc="stars"></i>
+        <i class="fa-regular fa-star" data-starcd="stars"></i>
+        <i class="fa-regular fa-star" data-starce="stars"></i>
+        <button id="btn-rate">Submbit</button>
+        <h2 class="thanks">Thank you for your feedback!!!</h2>
+    </div>
+    </div>
+     
+    <div class="discount" id="discount">
+     
+      <h1>Order discount package</h1>
+      <h2>when ordering Pizza and beer together you will have $3 discount</h2>
+      <h2>when ordering Pizza,Hamburger and Chicken drumstick together you will have $10 discount </h2>
+       <h2>when ordering Pizza,Hamburger,Chicken drumstick and beer together you will have $10 discount </h2>
+       <h2>when ordering Pizza,Hamburger and beer together you will have $6 discount </h2>
+       <h2>when ordering Beer,Hamburger and Chicken drumstick together you will have $7 discount </h2>   
+       <button class="btn-close-close" id="btn-close-discount">Close</button>
+
+      </form>
+
+    </div>
+     
+    <div class="model" id="model">
+      <button class="btn-close" id="btn-close">X</button>
+      <h1>Enter Card details</h1>
+
+      <form class="card-detail" id="card-detail">
+        <input type="text"name="fullName" placeholder="Enter your  name" required/>
+        <input type="text" name="cardnumber" placeholder="Enter your card number" required/>
+        <input type="text" name="cvv" placeholder="Enter CVV" required/>
+      
+        <button type="submit" id="pay">Pay</button>
+      </form>
+
+    </div>
+   
+    
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

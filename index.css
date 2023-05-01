@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+}
+.main{
+    
+    width: 600px;
+    height: auto;
+    background-color: #F5F5F5;
+    margin: 0 auto;
+
+} 
+
+header{
+    color: white;
+    width: 600px;
+    height: 167;
+    background-image: url("https://media.istockphoto.com/id/860251286/photo/tasty-burgers-on-wooden-table.jpg?b=1&s=170667a&w=0&k=20&c=GUwJNJ0j18W52wlghCgyF7BgnutK3Yd4_IKqJxJH478=");
+    background-size: cover;
+    
+}
+ header h1{
+    padding: 46px 300px 9px 46px;
+    margin-top: 0px;
+}
+header p{
+    padding: 0px 300px 0px 46px;
+}
+
+
+
+/* .pizza{
+    width: 510px;
+    height: 140px;
+   
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin: 67px auto 45px auto;
+    border-bottom: 1px solid grey;
+    
+
+} */
+
+
+.pizza-span{
+    
+    /* border: 1px solid blue; */
+  
+    
+}
+.pizza-icon{
+    width: 70px;
+    height: 89px;
+    /* border: 1px solid green; */
+    
+   
+
+}
+.pizza-icon i{
+   
+   
+    font-size: 100px;
+    top: 234px;
+    height: 100px;
+    
+    
+}
+.pizz-detail{
+    /* border: 1px violet dotted; */
+    /* margin-left: auto;
+    margin-right: auto; */
+  
+   
+    
+}
+.pizz-detail h2{
+    margin-top: 0px;
+    color: rebeccapurple;
+   
+    text-align: left;
+}
+.pizza-btn{
+    border: 1px beige black;
+    /* background-color: red; */
+    
+    align-items: first baseline;
+    margin: 30px 0px 20px 0px;
+   justify-content: flex-end;
+   justify-self: end;
+   justify-items: right;
+   margin-left: auto;
+    
+    
+}
+.pizza-btn button{
+    
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    border-radius: 50%;
+    font-family: sans-serif;
+    border: 1px solid grey;
+    opacity: 0.5;
+    
+    
+    
+}
+.pizza-span{
+    
+}
+.inner-menu{
+    display: flex;
+    gap: 100px;
+}
+.menu-flex{
+    width: 510px;
+    height: 140px;
+   
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin: 67px auto 45px auto;
+    border-bottom: 1px solid grey;
+    
+}
+
+
+.complete-order{
+  display: none;
+ 
+   
+
+}
+.order-h2{
+    text-align: center;
+}
+.complete-order h2{
+    font-size: 30px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+     color: red;
+    text-align: center;
+}
+.order-food{
+    display: flex;
+    gap: 10px;
+    border-bottom: 2px solid black;
+    padding: 40px 46px 14px 46px;
+}
+.remove-foods{
+    opacity: 0.5;
+}
+.food-prices{
+    margin-left: auto;
+    
+}
+.order-submit{
+    display: flex;
+    gap: 425px;
+    padding: 5px 46px 14px 46px;
+    margin-bottom: 0px;
+}
+.order-submit h3{
+    margin-left: auto;
+    font-size: 20px;
+    color: red;
+}
+.order-btn{
+    width: 508px;
+    height: 60px;
+    background: #16DB99;
+    color: #F5F5F5;
+    border: 0.1px #16DB99 solid;
+    
+   text-align: center;
+   margin: 20px auto 60px auto;
+   align-items: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 10px;
+}
+.main-order-btn{
+    text-align: center;
+   margin: 0px auto;
+   align-items: center;
+}
+
+
+
+/* Form for payment methods */
+.model{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 542px;
+    width: 524px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: #ffffff;
+    color: whitesmoke;
+    display: none;
+}
+.model h1{
+    margin-bottom: 30px;
+    color: black;
+    
+    text-align: center;
+}
+.card-detail{
+display: block;
+width: 524px;
+height: 542px;
+
+
+}
+.card-detail input,button{
+    display: block;
+    width: 476px;
+    height: 71px;
+    margin: 20px auto;
+}
+.card-detail button{
+    background-color: #16DB99;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: #F5F5F5;
+    margin: 47px auto 30px auto;
+    
+}
+.hidedisplay{
+    display: none;
+}
+.remove-singlefood:hover{
+    cursor: pointer;
+}
+ .thanks-text{
+    
+    color: #16DB99;
+    background-color: #ECFDF5;
+    ;
+    padding: 51px 66px 52px 59px;
+    width: 504px;
+    height: 120px;
+    margin: 45px auto;
+    border: none;
+    font-size: 32px;
+    font-weight: 400;
+   
+ }
+ .fa-solid{
+    color: #FFD700;
+  
+ }
+ .fa-star{
+    font-size: 60px;
+    margin: 20px auto;
+    color: #16DB99;
+ }
+ #btn-rate{
+    background-color: #16DB99;
+    color: #ffff;
+    font-size: 40px;
+    font-weight: 400;
+    border: none;
+ }
+ .model-rate{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: 20px auto;
+    height: 242px;
+    width: 524px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: #ffffff;
+    color: whitesmoke;
+    text-align: center;
+    display: none;
+   
+
+ }
+ .model-rate h2{
+    color: #16DB99;
+    display: none;
+ }
+
+ .food-item-add:hover {
+   background-color: #16DB99;
+ }
+ .btn-close{
+  height: 20px;
+  width: 20px;
+   font-size: 22px;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: black;
+  margin: 0px 0px 0px 500px;
+ }
+ .btn-close:hover{
+    color: red;
+ }
+
+ .discount{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 442px;
+    width: 694px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: #ffffff;
+    color: #16DB99;
+    display: none;
+  
+ }
+ .discount h1,h2{
+    text-align: center;
+ }
+ .discount button{
+    border: none;
+    background-color: #16DB99;
+    color: #ffffff;
+    font-size: 25px;
+ }
+ .discount h1{
+    background-color: #16DB99;
+    color: #ffffff;
+ }
